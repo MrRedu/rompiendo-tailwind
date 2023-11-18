@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --f-main : 'Atkinson Hyperlegible', sans-serif;
+}
+
+body {
+    font-family: var(--f-main);
+}

@@ -1,11 +1,11 @@
-import { ChitChat } from './components/ChitChat'
-// import { CookieConsent } from './components/CookieConsent'
+import { ChitChat, CookieConsent, BasicCard } from './components/'
 
 export const App = () => {
   return (
-    <>
-      <ChitChat />
+    <main className="bg-neutral-900 min-h-screen">
+      {/* <ChitChat /> */}
       {/* <CookieConsent /> */}
-    </>
+      <BasicCard />
+    </main>
   )
 }
