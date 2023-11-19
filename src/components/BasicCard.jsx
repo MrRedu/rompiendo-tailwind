@@ -7,7 +7,7 @@ export const BasicCard = ({
   repos = '14',
 }) => {
   return (
-    <div className="p-6 bg-slate-900 flex flex-row gap-4 mx-auto max-w-2xl rounded-3xl shadow-lg text-gray-50">
+    <div className="p-6 bg-slate-900 dark:bg-cyan-700 flex flex-row gap-4 mx-auto max-w-2xl rounded-3xl shadow-lg text-gray-50">
       <div className="min-w-max">
         <img src={img} alt="Random user" className="rounded-xl w-36 h-36" />
       </div>
