@@ -1,4 +1,4 @@
-import { ChitChat, CookieConsent, BasicCard } from './components/'
+import { ChitChat, CookieConsent, BasicCard, Modal } from './components/'
 
 export const App = () => {
   const handleClick = () => {
@@ -18,6 +18,7 @@ export const App = () => {
         {/* <ChitChat /> */}
         {/* <CookieConsent /> */}
         <BasicCard />
+        <Modal />
       </main>
     </>
   )
